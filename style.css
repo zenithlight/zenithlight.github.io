@@ -37,6 +37,9 @@ body, html {
     font-size: 26px;
     position: absolute;
     bottom: 16px;
-    left: 22px;
     width: 100%;
+}
+
+.navitem {
+    margin-left: 22px;
 }
