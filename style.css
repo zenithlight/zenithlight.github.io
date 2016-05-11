@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    height: 140px;
+    width: 100%;
+    position: absolute;
+}
+
+#left {
+    height: 100%;
+    width: 260px;
+    background: black;
+    color: white;
+    font-family: Consolas, monospace;
+    font-size: 26px;
+    position: absolute;
+}
+
+#right {
+    height: 100%;
+    position: absolute;
+    left: 260px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+}
+
+#navitems {
+    color: grey;
+    font-family: Consolas, monospace;
+    font-size: 26px;
+    position: absolute;
+    bottom: 16px;
+    left: 22px;
+    width: 100%;
+}
