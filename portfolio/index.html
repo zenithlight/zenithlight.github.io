@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="portfolio-grid">
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <img src="/assets/{{ post.slug }}/thumbnail.png" alt="{{ post.title }}">
+            <span>{{ post.title }}</span>
+        </a>
+    {% endfor %}
+</div>
