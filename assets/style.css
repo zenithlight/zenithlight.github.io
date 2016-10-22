@@ -54,6 +54,10 @@ nav a:active {
     color: #555;
 }
 
+nav a.current {
+    color: black;
+}
+
 #top {
     height: 140px;
     background: black;
@@ -65,10 +69,6 @@ nav a:active {
     position: absolute;
     bottom: 16px;
     right: 24px;
-}
-
-.current {
-    color: #000;
 }
 
 main {

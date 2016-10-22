@@ -10,9 +10,9 @@
             <div id="fixed">
             <div id="top"><a href="/">Alexis Anand</a></div>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/contact/">Contact</a></li>
+                <li><a {% if page.url == '/' %}class="current"{% endif %} href="/">Home</a></li>
+                <li><a {% if page.url == '/portfolio/' %}class="current"{% endif %} href="/portfolio/">Portfolio</a></li>
+                <li><a {% if page.url == '/contact/' %}class="current"{% endif %} href="/contact/">Contact</a></li>
             </ul>
         </div>
         </nav>
