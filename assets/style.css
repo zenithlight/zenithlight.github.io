@@ -89,8 +89,14 @@ main img {
     max-width: 100%;
 }
 
+.portfolio-grid {
+    display: flex;
+}
+
 .portfolio-grid a {
-    position: absolute;
+    position: relative;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
 .portfolio-grid a img {
     width: 320px;
