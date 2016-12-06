@@ -73,7 +73,7 @@ nav a.current {
 
 main {
     margin-top: 140px;
-    padding: 24px 200px 0 24px;
+    padding: 24px 200px 24px 24px;
     font-family: Lato, sans-serif;
     font-size: 19px;
     color: #777;
@@ -112,4 +112,8 @@ main img {
 
 article img {
     border: 1px solid grey;
+}
+
+article h1 {
+    margin: 0;
 }
